@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\cc5a28ee364dbd2e9123115ec5a53f55\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{3053AE26-9E6F-4EE5-BF62-35A82C701924}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

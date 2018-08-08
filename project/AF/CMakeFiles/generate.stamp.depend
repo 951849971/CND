@@ -1,0 +1,21 @@
+# CMake generation dependency list for this directory.
+D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt
+D:/ITE_Castor3_SDK/project/AF/layer.cmake
+D:/ITE_Castor3_SDK/project/AF/ctrlboard.ini
+D:/ITE_Castor3_SDK/sdk/share/wifi_hostapd/hostapd.conf.in
+D:/ITE_Castor3_SDK/project/AF/ctrlboard.ini
+D:/ITE_Castor3_SDK/project/AF/web/devmode.html
+D:/ITE_Castor3_SDK/project/AF/web/info.js
+D:/ITE_Castor3_SDK/project/AF/web/jquery.min.js
+D:/ITE_Castor3_SDK/project/AF/web/setting.html
+D:/ITE_Castor3_SDK/sdk/share/wifi_hostapd/hostapd.conf.in
+D:/ITE_Castor3_SDK/project/AF/media/clip0009.mp4
+D:/ITE_Castor3_SDK/project/AF/media/Music01.mp3
+D:/ITE_Castor3_SDK/project/AF/media/Music02.mp3
+D:/ITE_Castor3_SDK/project/AF/media/sample01.jpg
+D:/ITE_Castor3_SDK/project/AF/media/sample02.jpg
+D:/ITE_Castor3_SDK/project/AF/media/small.mkv
+D:/ITE_Castor3_SDK/sdk/build.cmake
+D:/ITE_Castor3_SDK/tool/bin/FTCSPI.dll
+D:/ITE_Castor3_SDK/sdk/target/debug/win32/exec.cmd.in
+D:/ITE_Castor3_SDK/sdk/target/debug/win32/run.cmd.in

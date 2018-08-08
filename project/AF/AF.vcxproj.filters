@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\audio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\config.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\external.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\external_process.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\function_table.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\photo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\reset.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\scene.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\screen.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\storage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\string.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\upgrade.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\backup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_airconditioner.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_audioplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_button.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_calendar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_check_anim.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_check_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_circlectrl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_clock.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_imageplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_imageview.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_keyboard2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_list.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_logo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_main_menu.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_meter.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_screensaver.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_display.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_lang.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_sound.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_sysinfo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_network.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_touch_calibration.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_usb_device_mode.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_videoplayer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_videoview.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ITE_Castor3_SDK\project\AF\ctrlboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\ITE_Castor3_SDK\project\AF\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{ECC19125-C8E5-4FBC-9CC4-1CE05CA92048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{8E304AF3-792D-46FB-B820-5769A3404115}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,245 @@
+The system is: Windows - 6.2 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:45:59.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdC\CompilerIdC.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:04.00
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/3.1.0/CompilerIdC/CompilerIdC.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:46:03.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
+InitializeBuildStatus:
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue CMakeCXXCompilerId.cpp
+  CMakeCXXCompilerId.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCXXCompilerId.obj
+  CompilerIdCXX.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdCXX\.\CompilerIdCXX.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_CXX_COMPILER=C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\3.1.0\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.36
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+
+The CXX compiler identification is MSVC, found in "D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/3.1.0/CompilerIdCXX/CompilerIdCXX.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec3010210006.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:46:05.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec3010210006.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec3010210006.dir\Debug\".
+  Creating directory "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec3010210006.dir\Debug\cmTryCom.B57644F9.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec3010210006.dir\Debug\cmTryCom.B57644F9.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3010210006.dir\Debug\\" /Fd"cmTryCompileExec3010210006.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\testCCompiler.c
+  ?? x86 ? Microsoft (R) C/C++ ????? 18.00.40629 ?????(C) Microsoft Corporation?  ???????
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec3010210006.dir\Debug\\" /Fd"cmTryCompileExec3010210006.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3010210006.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3010210006.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec3010210006.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec3010210006.dir\Debug\testCCompiler.obj
+  cmTryCompileExec3010210006.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec3010210006.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec3010210006.dir\Debug\cmTryCom.B57644F9.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec3010210006.dir\Debug\cmTryCom.B57644F9.tlog\cmTryCompileExec3010210006.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec3010210006.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.74
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec32706171.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:46:07.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec32706171.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec32706171.dir\Debug\".
+  Creating directory "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec32706171.dir\Debug\cmTryCom.4E87FF6C.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec32706171.dir\Debug\cmTryCom.4E87FF6C.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec32706171.dir\Debug\\" /Fd"cmTryCompileExec32706171.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ITE_Castor3_SDK\tool\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  ?? x86 ? Microsoft (R) C/C++ ????? 18.00.40629 ?????(C) Microsoft Corporation?  ???????
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec32706171.dir\Debug\\" /Fd"cmTryCompileExec32706171.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "D:\ITE_Castor3_SDK\tool\share\cmake-3.1\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec32706171.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec32706171.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec32706171.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec32706171.dir\Debug\CMakeCCompilerABI.obj
+  cmTryCompileExec32706171.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec32706171.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec32706171.dir\Debug\cmTryCom.4E87FF6C.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec32706171.dir\Debug\cmTryCom.4E87FF6C.tlog\cmTryCompileExec32706171.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec32706171.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.45
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec1013042666.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:46:09.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec1013042666.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec1013042666.dir\Debug\".
+  Creating directory "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec1013042666.dir\Debug\cmTryCom.50F35A63.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec1013042666.dir\Debug\cmTryCom.50F35A63.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1013042666.dir\Debug\\" /Fd"cmTryCompileExec1013042666.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  ?? x86 ? Microsoft (R) C/C++ ????? 18.00.40629 ?????(C) Microsoft Corporation?  ???????
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec1013042666.dir\Debug\\" /Fd"cmTryCompileExec1013042666.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+  
+  testCXXCompiler.cxx
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1013042666.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1013042666.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec1013042666.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec1013042666.dir\Debug\testCXXCompiler.obj
+  cmTryCompileExec1013042666.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec1013042666.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec1013042666.dir\Debug\cmTryCom.50F35A63.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec1013042666.dir\Debug\cmTryCom.50F35A63.tlog\cmTryCompileExec1013042666.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec1013042666.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.59
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Program Files/MSBuild/12.0/bin/MSBuild.exe" "cmTryCompileExec2027576564.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft (R) Build Engine version 12.0.40629.0
+[Microsoft .NET Framework, version 4.0.30319.42000]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 2018/8/8 9:46:11.
+Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec2027576564.vcxproj" on node 1 (default targets).
+PrepareForBuild:
+  Creating directory "cmTryCompileExec2027576564.dir\Debug\".
+  Creating directory "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTryCompileExec2027576564.dir\Debug\cmTryCom.1D9AB0C2.tlog\".
+InitializeBuildStatus:
+  Creating "cmTryCompileExec2027576564.dir\Debug\cmTryCom.1D9AB0C2.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2027576564.dir\Debug\\" /Fd"cmTryCompileExec2027576564.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ITE_Castor3_SDK\tool\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  ?? x86 ? Microsoft (R) C/C++ ????? 18.00.40629 ?????(C) Microsoft Corporation?  ???????
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"cmTryCompileExec2027576564.dir\Debug\\" /Fd"cmTryCompileExec2027576564.dir\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:queue "D:\ITE_Castor3_SDK\tool\share\cmake-3.1\Modules\CMakeCXXCompilerABI.cpp"
+  
+  CMakeCXXCompilerABI.cpp
+Link:
+  C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2027576564.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2027576564.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec2027576564.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug cmTryCompileExec2027576564.dir\Debug\CMakeCXXCompilerABI.obj
+  cmTryCompileExec2027576564.vcxproj -> D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\Debug\cmTryCompileExec2027576564.exe
+FinalizeBuildStatus:
+  Deleting file "cmTryCompileExec2027576564.dir\Debug\cmTryCom.1D9AB0C2.tlog\unsuccessfulbuild".
+  Touching "cmTryCompileExec2027576564.dir\Debug\cmTryCom.1D9AB0C2.tlog\cmTryCompileExec2027576564.lastbuildstate".
+Done Building Project "D:\ITE_Castor3_SDK\build\win32\AF\CMakeFiles\CMakeTmp\cmTryCompileExec2027576564.vcxproj" (default targets).
+
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
+
+Time Elapsed 00:00:01.39
+
+

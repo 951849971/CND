@@ -1,0 +1,462 @@
+﻿<?xml version="1.0" encoding="Windows-1252"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{A6454E6F-080D-4566-92FF-E2F1E9920D3A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>AF</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120_xp</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AF.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AF.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AF.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">AF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AF.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">AF</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME="wqyMicroHeiProportional.ttf";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE="A";CFG_PUBLIC_DRIVE="B";CFG_TEMP_DRIVE="T";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME="ITEPKG03.PKG";CFG_UPGRADE_FILENAME_LIST="ITEPKG03.PKG";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR="2";CFG_VERSION_MINOR_STR="2";CFG_VERSION_PATCH_STR="8";CFG_VERSION_CUSTOM_STR="0";CFG_VERSION_TWEAK_STR="";CFG_SYSTEM_NAME="ITE Display Control Board";CFG_MANUFACTURER="www.ite.com.tw";CFG_PROJECT_NAME="AF";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR="80";CFG_HW_VERSION="V2";CFG_UPGRADE_FTP_URL="ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG";CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME=\"wqyMicroHeiProportional.ttf\";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE=\"A\";CFG_PUBLIC_DRIVE=\"B\";CFG_TEMP_DRIVE=\"T\";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME=\"ITEPKG03.PKG\";CFG_UPGRADE_FILENAME_LIST=\"ITEPKG03.PKG\";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR=\"2\";CFG_VERSION_MINOR_STR=\"2\";CFG_VERSION_PATCH_STR=\"8\";CFG_VERSION_CUSTOM_STR=\"0\";CFG_VERSION_TWEAK_STR=\"\";CFG_SYSTEM_NAME=\"ITE Display Control Board\";CFG_MANUFACTURER=\"www.ite.com.tw\";CFG_PROJECT_NAME=\"AF\";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR=\"80\";CFG_HW_VERSION=\"V2\";CFG_UPGRADE_FTP_URL=\"ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG\";CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\sdl_main.lib;..\..\lib\Debug\sdl.lib;..\..\lib\Debug\iniparser.lib;..\..\lib\Debug\itu.lib;itu_private.lib;..\..\lib\Debug\itu.lib;..\..\lib\Debug\pyinput.lib;..\..\lib\Debug\freetype.lib;..\..\lib\Debug\png.lib;..\..\lib\Debug\jpeg.lib;..\..\lib\Debug\upgrade.lib;..\..\lib\Debug\itc.lib;..\..\lib\Debug\redblack.lib;..\..\lib\Debug\zlib.lib;..\..\lib\Debug\tslib.lib;..\..\lib\Debug\audio_mgr.lib;..\..\lib\Debug\audio.lib;..\..\lib\Debug\i2s.lib;..\..\lib\Debug\itp.lib;..\..\lib\Debug\iic.lib;..\..\lib\Debug\spi.lib;..\..\lib\Debug\ucl.lib;..\..\lib\Debug\bt.lib;fat.lib;..\..\lib\Debug\fat_sd.lib;..\..\lib\Debug\sd.lib;..\..\lib\Debug\risc.lib;..\..\lib\Debug\boot.lib;..\..\lib\Debug\itp_boot.lib;..\..\lib\Debug\ith_platform.lib;..\..\lib\Debug\ith.lib;..\..\lib\Debug\ptw32.lib;..\..\..\..\..\win32\lib\FTCSPI.lib;..\..\..\..\..\win32\lib\Packet.lib;imm32.lib;Vfw32.lib;version.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ITE_Castor3_SDK/build/win32/lib;D:/ITE_Castor3_SDK/build/win32/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <ProcessorNumber>4</ProcessorNumber>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME="wqyMicroHeiProportional.ttf";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE="A";CFG_PUBLIC_DRIVE="B";CFG_TEMP_DRIVE="T";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME="ITEPKG03.PKG";CFG_UPGRADE_FILENAME_LIST="ITEPKG03.PKG";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR="2";CFG_VERSION_MINOR_STR="2";CFG_VERSION_PATCH_STR="8";CFG_VERSION_CUSTOM_STR="0";CFG_VERSION_TWEAK_STR="";CFG_SYSTEM_NAME="ITE Display Control Board";CFG_MANUFACTURER="www.ite.com.tw";CFG_PROJECT_NAME="AF";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR="80";CFG_HW_VERSION="V2";CFG_UPGRADE_FTP_URL="ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG";CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME=\"wqyMicroHeiProportional.ttf\";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE=\"A\";CFG_PUBLIC_DRIVE=\"B\";CFG_TEMP_DRIVE=\"T\";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME=\"ITEPKG03.PKG\";CFG_UPGRADE_FILENAME_LIST=\"ITEPKG03.PKG\";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR=\"2\";CFG_VERSION_MINOR_STR=\"2\";CFG_VERSION_PATCH_STR=\"8\";CFG_VERSION_CUSTOM_STR=\"0\";CFG_VERSION_TWEAK_STR=\"\";CFG_SYSTEM_NAME=\"ITE Display Control Board\";CFG_MANUFACTURER=\"www.ite.com.tw\";CFG_PROJECT_NAME=\"AF\";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR=\"80\";CFG_HW_VERSION=\"V2\";CFG_UPGRADE_FTP_URL=\"ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG\";CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\sdl_main.lib;..\..\lib\Release\sdl.lib;..\..\lib\Release\iniparser.lib;..\..\lib\Release\itu.lib;itu_private.lib;..\..\lib\Release\itu.lib;..\..\lib\Release\pyinput.lib;..\..\lib\Release\freetype.lib;..\..\lib\Release\png.lib;..\..\lib\Release\jpeg.lib;..\..\lib\Release\upgrade.lib;..\..\lib\Release\itc.lib;..\..\lib\Release\redblack.lib;..\..\lib\Release\zlib.lib;..\..\lib\Release\tslib.lib;..\..\lib\Release\audio_mgr.lib;..\..\lib\Release\audio.lib;..\..\lib\Release\i2s.lib;..\..\lib\Release\itp.lib;..\..\lib\Release\iic.lib;..\..\lib\Release\spi.lib;..\..\lib\Release\ucl.lib;..\..\lib\Release\bt.lib;fat.lib;..\..\lib\Release\fat_sd.lib;..\..\lib\Release\sd.lib;..\..\lib\Release\risc.lib;..\..\lib\Release\boot.lib;..\..\lib\Release\itp_boot.lib;..\..\lib\Release\ith_platform.lib;..\..\lib\Release\ith.lib;..\..\lib\Release\ptw32.lib;..\..\..\..\..\win32\lib\FTCSPI.lib;..\..\..\..\..\win32\lib\Packet.lib;imm32.lib;Vfw32.lib;version.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ITE_Castor3_SDK/build/win32/lib;D:/ITE_Castor3_SDK/build/win32/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Release/AF.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Release/AF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME="wqyMicroHeiProportional.ttf";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE="A";CFG_PUBLIC_DRIVE="B";CFG_TEMP_DRIVE="T";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME="ITEPKG03.PKG";CFG_UPGRADE_FILENAME_LIST="ITEPKG03.PKG";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR="2";CFG_VERSION_MINOR_STR="2";CFG_VERSION_PATCH_STR="8";CFG_VERSION_CUSTOM_STR="0";CFG_VERSION_TWEAK_STR="";CFG_SYSTEM_NAME="ITE Display Control Board";CFG_MANUFACTURER="www.ite.com.tw";CFG_PROJECT_NAME="AF";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR="80";CFG_HW_VERSION="V2";CFG_UPGRADE_FTP_URL="ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG";CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME=\"wqyMicroHeiProportional.ttf\";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE=\"A\";CFG_PUBLIC_DRIVE=\"B\";CFG_TEMP_DRIVE=\"T\";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME=\"ITEPKG03.PKG\";CFG_UPGRADE_FILENAME_LIST=\"ITEPKG03.PKG\";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR=\"2\";CFG_VERSION_MINOR_STR=\"2\";CFG_VERSION_PATCH_STR=\"8\";CFG_VERSION_CUSTOM_STR=\"0\";CFG_VERSION_TWEAK_STR=\"\";CFG_SYSTEM_NAME=\"ITE Display Control Board\";CFG_MANUFACTURER=\"www.ite.com.tw\";CFG_PROJECT_NAME=\"AF\";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR=\"80\";CFG_HW_VERSION=\"V2\";CFG_UPGRADE_FTP_URL=\"ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG\";CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\MinSizeRel\sdl_main.lib;..\..\lib\MinSizeRel\sdl.lib;..\..\lib\MinSizeRel\iniparser.lib;..\..\lib\MinSizeRel\itu.lib;itu_private.lib;..\..\lib\MinSizeRel\itu.lib;..\..\lib\MinSizeRel\pyinput.lib;..\..\lib\MinSizeRel\freetype.lib;..\..\lib\MinSizeRel\png.lib;..\..\lib\MinSizeRel\jpeg.lib;..\..\lib\MinSizeRel\upgrade.lib;..\..\lib\MinSizeRel\itc.lib;..\..\lib\MinSizeRel\redblack.lib;..\..\lib\MinSizeRel\zlib.lib;..\..\lib\MinSizeRel\tslib.lib;..\..\lib\MinSizeRel\audio_mgr.lib;..\..\lib\MinSizeRel\audio.lib;..\..\lib\MinSizeRel\i2s.lib;..\..\lib\MinSizeRel\itp.lib;..\..\lib\MinSizeRel\iic.lib;..\..\lib\MinSizeRel\spi.lib;..\..\lib\MinSizeRel\ucl.lib;..\..\lib\MinSizeRel\bt.lib;fat.lib;..\..\lib\MinSizeRel\fat_sd.lib;..\..\lib\MinSizeRel\sd.lib;..\..\lib\MinSizeRel\risc.lib;..\..\lib\MinSizeRel\boot.lib;..\..\lib\MinSizeRel\itp_boot.lib;..\..\lib\MinSizeRel\ith_platform.lib;..\..\lib\MinSizeRel\ith.lib;..\..\lib\MinSizeRel\ptw32.lib;..\..\..\..\..\win32\lib\FTCSPI.lib;..\..\..\..\..\win32\lib\Packet.lib;imm32.lib;Vfw32.lib;version.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ITE_Castor3_SDK/build/win32/lib;D:/ITE_Castor3_SDK/build/win32/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/MinSizeRel/AF.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/MinSizeRel/AF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME="wqyMicroHeiProportional.ttf";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE="A";CFG_PUBLIC_DRIVE="B";CFG_TEMP_DRIVE="T";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME="ITEPKG03.PKG";CFG_UPGRADE_FILENAME_LIST="ITEPKG03.PKG";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR="2";CFG_VERSION_MINOR_STR="2";CFG_VERSION_PATCH_STR="8";CFG_VERSION_CUSTOM_STR="0";CFG_VERSION_TWEAK_STR="";CFG_SYSTEM_NAME="ITE Display Control Board";CFG_MANUFACTURER="www.ite.com.tw";CFG_PROJECT_NAME="AF";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR="80";CFG_HW_VERSION="V2";CFG_UPGRADE_FTP_URL="ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG";CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CFG_CHIP_PKG_IT9079;CFG_OSC_CLK=30000000;CFG_RTC_EXTCLK=30000000;CFG_CHIP_FAMILY=9070;CFG_RAM_SIZE=0x1000000;CFG_WATCHDOG_ENABLE;CFG_WATCHDOG_TIMEOUT=10;CFG_WATCHDOG_REFRESH_INTERVAL=1;CFG_MEMDBG_ENABLE;CFG_WT_SIZE=0;CFG_LCD_ENABLE;CFG_LCD_WIDTH=320;CFG_LCD_HEIGHT=240;CFG_LCD_PITCH=640;CFG_LCD_BPP=2;CFG_LCD_TRIPLE_BUFFER;CFG_BACKLIGHT_ENABLE;CFG_BACKLIGHT_FREQ=1000;CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5;CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5;CFG_BACKLIGHT_BOOTLODER_DELAY=83;CFG_CMDQ_ENABLE;CFG_CMDQ_SIZE=0x40000;CFG_FONT_FILENAME=\"wqyMicroHeiProportional.ttf\";CFG_AUDIO_ENABLE;AUDIO_PLUGIN_MESSAGE_QUEUE;ENABLE_CODECS_PLUGIN;CONFIG_ITADRIVER;CFG_AUDIO_SAMPLING_RATE=8000;CFG_AEC_DELAY_MS=60;CFG_SPEAKER_GAIN=0;CFG_MIC_GAIN=0;CFG_NOISE_GATE_THRESHOLD=0.3;CFG_EQUALIZER_SPKGAIN_SET=NULL;CFG_EQUALIZER_MICGAIN_SET=NULL;CFG_BUILD_ITU;CFG_SD0_ENABLE;CFG_FS_FAT;CFG_PRIVATE_DRIVE=\"A\";CFG_PUBLIC_DRIVE=\"B\";CFG_TEMP_DRIVE=\"T\";CFG_RTC_DEFAULT_TIMESTAMP=1325376000;CFG_I2C0_ENABLE;CFG_HW_I2C_ENABLE;CFG_SPI0_ENABLE;CFG_SPI0_MOSI_GPIO=;CFG_SPI0_MISO_GPIO=;CFG_SPI0_CLOCK_GPIO=;CFG_SPI0_CHIP_SEL_GPIO=;CFG_I2S_ENABLE;CFG_I2S_OUTPUT_PIN_ENABLE;CFG_DAC_port_I2C0;CFG_SPI_ENABLE;CFG_UART1_ENABLE;CFG_UART1_BAUDRATE=115200;CFG_UART_INTR;CFG_UART_BUF_SIZE=1024;CFG_TOUCH_ENABLE;CFG_TOUCH_MODULE_COUNT=1;CFG_TOUCH_I2C0;CFG_TOUCH_CAPACITIVE;CFG_TOUCH_X_MAX_VALUE=0xFF;CFG_TOUCH_Y_MAX_VALUE=0xFF;CFG_FFMPEG_H264_SW;CFG_GPIO_SD0_CARD_DETECT=-1;CFG_GPIO_SD0_POWER_ENABLE=-1;CFG_GPIO_SD0_WRITE_PROTECT=-1;CFG_GPIO_BACKLIGHT_PWM=4;CFG_GPIO_UART1_TX=25;CFG_GPIO_UART1_RX=14;CFG_GPIO_TOUCH_INT=44;CFG_GPIO_TOUCH_WAKE=45;CFG_GPIO_TOUCH_RESET=-1;CFG_GPIO_ETHERNET_LINK=-1;CFG_IIC0_GPIO_CONFIG_2=y;CFG_NET_ETHERNET_PHY_ADDR=-1;CFG_NET_ETHERNET_COUNT=1;CFG_DBG_PRINTBUF_SIZE=0;CFG_DBG_UART1;CFG_UPGRADE_FILENAME=\"ITEPKG03.PKG\";CFG_UPGRADE_FILENAME_LIST=\"ITEPKG03.PKG\";CFG_UPGRADE_ENC_KEY=0;CFG_BUILD_AUDIO_MGR;CFG_NORMAL_BUFFER_MODE;CFG_BUILD_DEBUG;CFG_VERSION_MAJOR=2;CFG_VERSION_MINOR=2;CFG_VERSION_PATCH=8;CFG_VERSION_CUSTOM=0;CFG_VERSION_TWEAK=;CFG_VERSION_MAJOR_STR=\"2\";CFG_VERSION_MINOR_STR=\"2\";CFG_VERSION_PATCH_STR=\"8\";CFG_VERSION_CUSTOM_STR=\"0\";CFG_VERSION_TWEAK_STR=\"\";CFG_SYSTEM_NAME=\"ITE Display Control Board\";CFG_MANUFACTURER=\"www.ite.com.tw\";CFG_PROJECT_NAME=\"AF\";_ALLOW_KEYWORD_MACROS;_CRT_SECURE_NO_WARNINGS;_POSIX_PRIORITY_SCHEDULING=1;_SCL_SECURE_NO_WARNINGS;_USE_MATH_DEFINES;CURL_STATICLIB;EGLAPI=;EGLAPIENTRY=;LIBXML_STATIC;NOMINMAX;OPENVG_STATIC_LIBRARY;ORTP_STATIC;OSIP_MT;PTW32_STATIC_LIB;UPNP_STATIC_LIB;_CRTDBG_MAP_ALLOC;ENABLE_TRACE;CFG_WIN32_SIMULATOR;CFG_WEBSERVER_PORT=80;CFG_WEBSERVER_PORT_STR=\"80\";CFG_HW_VERSION=\"V2\";CFG_UPGRADE_FTP_URL=\"ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG\";CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\ITE_Castor3_SDK\win32\include;D:\ITE_Castor3_SDK\sdk\include;D:\ITE_Castor3_SDK\build\win32\AF\win32\include;D:\ITE_Castor3_SDK\build\win32\AF\project\AF;D:\ITE_Castor3_SDK\sdk\driver\mmp\include;D:\ITE_Castor3_SDK\sdk\share\audio_mgr;D:\ITE_Castor3_SDK\sdk\share\ffmpeg;D:\ITE_Castor3_SDK\sdk\share\lwip_ftpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd;D:\ITE_Castor3_SDK\sdk\share\microhttpd\include;D:\ITE_Castor3_SDK\sdk\share\wifi_mgr;D:\ITE_Castor3_SDK\sdk\driver\itv;D:\ITE_Castor3_SDK\project\AF\if;D:\ITE_Castor3_SDK\project\AF\(;D:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY;D:\ITE_Castor3_SDK\project\AF\STREQUAL;D:\ITE_Castor3_SDK\project\AF\9850;D:\ITE_Castor3_SDK\project\AF\);D:\ITE_Castor3_SDK\project\AF\include_directories;D:\ITE_Castor3_SDK\sdk\share\itu;D:\ITE_Castor3_SDK\sdk\share\itu\it9850;D:\ITE_Castor3_SDK\project\AF\else;D:\ITE_Castor3_SDK\sdk\share\itu\it9070;D:\ITE_Castor3_SDK\project\AF\endif;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 /debug %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\RelWithDebInfo\sdl_main.lib;..\..\lib\RelWithDebInfo\sdl.lib;..\..\lib\RelWithDebInfo\iniparser.lib;..\..\lib\RelWithDebInfo\itu.lib;itu_private.lib;..\..\lib\RelWithDebInfo\itu.lib;..\..\lib\RelWithDebInfo\pyinput.lib;..\..\lib\RelWithDebInfo\freetype.lib;..\..\lib\RelWithDebInfo\png.lib;..\..\lib\RelWithDebInfo\jpeg.lib;..\..\lib\RelWithDebInfo\upgrade.lib;..\..\lib\RelWithDebInfo\itc.lib;..\..\lib\RelWithDebInfo\redblack.lib;..\..\lib\RelWithDebInfo\zlib.lib;..\..\lib\RelWithDebInfo\tslib.lib;..\..\lib\RelWithDebInfo\audio_mgr.lib;..\..\lib\RelWithDebInfo\audio.lib;..\..\lib\RelWithDebInfo\i2s.lib;..\..\lib\RelWithDebInfo\itp.lib;..\..\lib\RelWithDebInfo\iic.lib;..\..\lib\RelWithDebInfo\spi.lib;..\..\lib\RelWithDebInfo\ucl.lib;..\..\lib\RelWithDebInfo\bt.lib;fat.lib;..\..\lib\RelWithDebInfo\fat_sd.lib;..\..\lib\RelWithDebInfo\sd.lib;..\..\lib\RelWithDebInfo\risc.lib;..\..\lib\RelWithDebInfo\boot.lib;..\..\lib\RelWithDebInfo\itp_boot.lib;..\..\lib\RelWithDebInfo\ith_platform.lib;..\..\lib\RelWithDebInfo\ith.lib;..\..\lib\RelWithDebInfo\ptw32.lib;..\..\..\..\..\win32\lib\FTCSPI.lib;..\..\..\..\..\win32\lib\Packet.lib;imm32.lib;Vfw32.lib;version.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:/ITE_Castor3_SDK/build/win32/lib;D:/ITE_Castor3_SDK/build/win32/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/RelWithDebInfo/AF.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/ITE_Castor3_SDK/build/win32/AF/project/AF/RelWithDebInfo/AF.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+..\..\..\..\..\tool\bin\cmake.exe -HD:/ITE_Castor3_SDK -BD:/ITE_Castor3_SDK/build/win32/AF --check-stamp-file D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\layer.cmake;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\project\AF\web\devmode.html;D:\ITE_Castor3_SDK\project\AF\web\info.js;D:\ITE_Castor3_SDK\project\AF\web\jquery.min.js;D:\ITE_Castor3_SDK\project\AF\web\setting.html;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\media\clip0009.mp4;D:\ITE_Castor3_SDK\project\AF\media\Music01.mp3;D:\ITE_Castor3_SDK\project\AF\media\Music02.mp3;D:\ITE_Castor3_SDK\project\AF\media\sample01.jpg;D:\ITE_Castor3_SDK\project\AF\media\sample02.jpg;D:\ITE_Castor3_SDK\project\AF\media\small.mkv;D:\ITE_Castor3_SDK\sdk\build.cmake;D:\ITE_Castor3_SDK\tool\bin\FTCSPI.dll;D:\ITE_Castor3_SDK\sdk\target\debug\win32\exec.cmd.in;D:\ITE_Castor3_SDK\sdk\target\debug\win32\run.cmd.in;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+..\..\..\..\..\tool\bin\cmake.exe -HD:/ITE_Castor3_SDK -BD:/ITE_Castor3_SDK/build/win32/AF --check-stamp-file D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\layer.cmake;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\project\AF\web\devmode.html;D:\ITE_Castor3_SDK\project\AF\web\info.js;D:\ITE_Castor3_SDK\project\AF\web\jquery.min.js;D:\ITE_Castor3_SDK\project\AF\web\setting.html;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\media\clip0009.mp4;D:\ITE_Castor3_SDK\project\AF\media\Music01.mp3;D:\ITE_Castor3_SDK\project\AF\media\Music02.mp3;D:\ITE_Castor3_SDK\project\AF\media\sample01.jpg;D:\ITE_Castor3_SDK\project\AF\media\sample02.jpg;D:\ITE_Castor3_SDK\project\AF\media\small.mkv;D:\ITE_Castor3_SDK\sdk\build.cmake;D:\ITE_Castor3_SDK\tool\bin\FTCSPI.dll;D:\ITE_Castor3_SDK\sdk\target\debug\win32\exec.cmd.in;D:\ITE_Castor3_SDK\sdk\target\debug\win32\run.cmd.in;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+..\..\..\..\..\tool\bin\cmake.exe -HD:/ITE_Castor3_SDK -BD:/ITE_Castor3_SDK/build/win32/AF --check-stamp-file D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\layer.cmake;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\project\AF\web\devmode.html;D:\ITE_Castor3_SDK\project\AF\web\info.js;D:\ITE_Castor3_SDK\project\AF\web\jquery.min.js;D:\ITE_Castor3_SDK\project\AF\web\setting.html;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\media\clip0009.mp4;D:\ITE_Castor3_SDK\project\AF\media\Music01.mp3;D:\ITE_Castor3_SDK\project\AF\media\Music02.mp3;D:\ITE_Castor3_SDK\project\AF\media\sample01.jpg;D:\ITE_Castor3_SDK\project\AF\media\sample02.jpg;D:\ITE_Castor3_SDK\project\AF\media\small.mkv;D:\ITE_Castor3_SDK\sdk\build.cmake;D:\ITE_Castor3_SDK\tool\bin\FTCSPI.dll;D:\ITE_Castor3_SDK\sdk\target\debug\win32\exec.cmd.in;D:\ITE_Castor3_SDK\sdk\target\debug\win32\run.cmd.in;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+..\..\..\..\..\tool\bin\cmake.exe -HD:/ITE_Castor3_SDK -BD:/ITE_Castor3_SDK/build/win32/AF --check-stamp-file D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;D:\ITE_Castor3_SDK\project\AF\layer.cmake;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\ctrlboard.ini;D:\ITE_Castor3_SDK\project\AF\web\devmode.html;D:\ITE_Castor3_SDK\project\AF\web\info.js;D:\ITE_Castor3_SDK\project\AF\web\jquery.min.js;D:\ITE_Castor3_SDK\project\AF\web\setting.html;D:\ITE_Castor3_SDK\sdk\share\wifi_hostapd\hostapd.conf.in;D:\ITE_Castor3_SDK\project\AF\media\clip0009.mp4;D:\ITE_Castor3_SDK\project\AF\media\Music01.mp3;D:\ITE_Castor3_SDK\project\AF\media\Music02.mp3;D:\ITE_Castor3_SDK\project\AF\media\sample01.jpg;D:\ITE_Castor3_SDK\project\AF\media\sample02.jpg;D:\ITE_Castor3_SDK\project\AF\media\small.mkv;D:\ITE_Castor3_SDK\sdk\build.cmake;D:\ITE_Castor3_SDK\tool\bin\FTCSPI.dll;D:\ITE_Castor3_SDK\sdk\target\debug\win32\exec.cmd.in;D:\ITE_Castor3_SDK\sdk\target\debug\win32\run.cmd.in;D:\ITE_Castor3_SDK\project\AF\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\ITE_Castor3_SDK\project\AF\ctrlboard.h" />
+    <ClInclude Include="D:\ITE_Castor3_SDK\project\AF\scene.h" />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\audio.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\config.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\external.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\external_process.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\function_table.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\main.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\photo.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\reset.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\scene.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\screen.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\storage.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\string.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\upgrade.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\backup.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_airconditioner.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_audioplayer.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_button.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_calendar.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_check_anim.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_check_list.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_circlectrl.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_clock.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_imageplayer.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_imageview.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_keyboard2.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_list.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_logo.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_main.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_main_menu.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_meter.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_screensaver.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_display.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_lang.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_sound.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_sysinfo.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_main.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_network.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_password.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_touch_calibration.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_usb_device_mode.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_videoplayer.c"  />
+    <ClCompile Include="D:\ITE_Castor3_SDK\project\AF\layer_videoview.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/ZERO_CHECK.vcxproj">
+      <Project>83B5585C-3780-437A-91BF-FD6D0F0E40AD</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/audio/audio.vcxproj">
+      <Project>C5B5E0A8-8146-4C14-BC4C-D9513A4EBBA0</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/audio_mgr/audio_mgr.vcxproj">
+      <Project>6565B826-F03A-45BE-A393-15DF64A5A87A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/win32/boot/boot.vcxproj">
+      <Project>50197A1A-3C05-4F7E-A9FC-6913F6C1C6C9</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/bt/bt.vcxproj">
+      <Project>31E9A083-1651-4D6E-845A-5DA9CC659253</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/fat/fat_sd.vcxproj">
+      <Project>1C5E72C6-1210-466F-B0CB-D9ABA01008B7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/freetype/freetype.vcxproj">
+      <Project>44566E36-3FFA-4547-8A63-AD3B52C59C6B</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/i2s/i2s.vcxproj">
+      <Project>95700BBD-2925-4565-95F2-22E846F12387</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/iic/iic.vcxproj">
+      <Project>622D06E1-ADA2-442E-9AFA-0F56437DE408</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/iniparser/iniparser.vcxproj">
+      <Project>11C19E98-6195-46EE-871C-237103302AB3</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/itc/itc.vcxproj">
+      <Project>A638FC59-40BD-43AA-858E-271FA53DCC0A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/ith/ith.vcxproj">
+      <Project>E7FBFF63-41E6-427F-AEAE-D05B17F47437</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/ith/ith_platform.vcxproj">
+      <Project>455972BD-D357-44EB-AE6E-C4CAF9F55289</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/itp/itp.vcxproj">
+      <Project>A97FE346-828D-4B48-8977-747BBC7A5321</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/itp/itp_boot.vcxproj">
+      <Project>AAF2258A-56AC-4F28-8ACF-AA0E099E898A</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/itu/itu.vcxproj">
+      <Project>8D3CD326-3661-49D9-862A-BCF13E832CFB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/jpeg/jpeg.vcxproj">
+      <Project>F9BD0CC6-1F25-47A3-8C07-0DBEF629AEEB</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/png/png.vcxproj">
+      <Project>AA14968A-237F-478E-82B6-2D05E1E37B0F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/win32/ptw32/ptw32.vcxproj">
+      <Project>F76B1C6A-0FDF-4CC4-9CC7-717313CE5ABE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/pyinput/pyinput.vcxproj">
+      <Project>06625F9C-466D-4273-B25F-6337C917C687</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/redblack/redblack.vcxproj">
+      <Project>E220D160-B637-48D9-9F8C-A9E328F10A45</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/risc/risc.vcxproj">
+      <Project>5F3CFA07-D9FE-44A3-A4A3-0A3271A747E5</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/sd/sd.vcxproj">
+      <Project>15797951-2E39-4B43-ABFA-9BC2BCE32E15</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/sdl/sdl.vcxproj">
+      <Project>36C21A36-25C7-4B71-962A-EF7EE15B53E8</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/sdl/sdl_main.vcxproj">
+      <Project>409A9CDC-F8BC-43EF-9EE0-BBC446F4A1BE</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/driver/spi/spi.vcxproj">
+      <Project>043CE492-FBF7-455A-94F0-E758F2B004A1</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/tslib/tslib.vcxproj">
+      <Project>FCE0AD99-D3FD-4FE1-8B2A-EA359186D7D7</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/ucl/ucl.vcxproj">
+      <Project>0A0188C8-1407-4BA9-B53B-6F5800663FDA</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/upgrade/upgrade.vcxproj">
+      <Project>1787EA50-8FDB-4A70-A26B-52875773872F</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/ITE_Castor3_SDK/build/win32/AF/sdk/share/zlib/zlib.vcxproj">
+      <Project>658A8382-1349-412D-AA2A-9F713D64FFC1</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
