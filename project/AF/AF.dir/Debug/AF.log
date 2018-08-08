@@ -1,80 +1,6 @@
-﻿生成启动时间为 2018/8/8 9:50:10。
-     1>项目“D:\ITE_Castor3_SDK\build\win32\AF\project\AF\AF.vcxproj”在节点 4 上(Build 个目标)。
-     1>CustomBuild:
-         Building Custom Rule D:/ITE_Castor3_SDK/project/AF/CMakeLists.txt
-         CMake does not need to re-run because D:\ITE_Castor3_SDK\build\win32\AF\project\AF\CMakeFiles\generate.stamp is up-to-date.
-       ClCompile:
-         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\ITE_Castor3_SDK\win32\include /ID:\ITE_Castor3_SDK\sdk\include /ID:\ITE_Castor3_SDK\build\win32\AF\win32\include /ID:\ITE_Castor3_SDK\build\win32\AF\project\AF /ID:\ITE_Castor3_SDK\sdk\driver\mmp\include /ID:\ITE_Castor3_SDK\sdk\share\audio_mgr /ID:\ITE_Castor3_SDK\sdk\share\ffmpeg /ID:\ITE_Castor3_SDK\sdk\share\lwip_ftpd /ID:\ITE_Castor3_SDK\sdk\share\microhttpd /ID:\ITE_Castor3_SDK\sdk\share\microhttpd\include /ID:\ITE_Castor3_SDK\sdk\share\wifi_mgr /ID:\ITE_Castor3_SDK\sdk\driver\itv /ID:\ITE_Castor3_SDK\project\AF\if /I"D:\ITE_Castor3_SDK\project\AF\(" /ID:\ITE_Castor3_SDK\project\AF\CFG_CHIP_FAMILY /ID:\ITE_Castor3_SDK\project\AF\STREQUAL /ID:\ITE_Castor3_SDK\project\AF\9850 /I"D:\ITE_Castor3_SDK\project\AF\)" /ID:\ITE_Castor3_SDK\project\AF\include_directories /ID:\ITE_Castor3_SDK\sdk\share\itu /ID:\ITE_Castor3_SDK\sdk\share\itu\it9850 /ID:\ITE_Castor3_SDK\project\AF\else /ID:\ITE_Castor3_SDK\sdk\share\itu\it9070 /ID:\ITE_Castor3_SDK\project\AF\endif /Zi /nologo /W3 /WX- /MP4 /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D CFG_CHIP_PKG_IT9079 /D CFG_OSC_CLK=30000000 /D CFG_RTC_EXTCLK=30000000 /D CFG_CHIP_FAMILY=9070 /D CFG_RAM_SIZE=0x1000000 /D CFG_WATCHDOG_ENABLE /D CFG_WATCHDOG_TIMEOUT=10 /D CFG_WATCHDOG_REFRESH_INTERVAL=1 /D CFG_MEMDBG_ENABLE /D CFG_WT_SIZE=0 /D CFG_LCD_ENABLE /D CFG_LCD_WIDTH=320 /D CFG_LCD_HEIGHT=240 /D CFG_LCD_PITCH=640 /D CFG_LCD_BPP=2 /D CFG_LCD_TRIPLE_BUFFER /D CFG_BACKLIGHT_ENABLE /D CFG_BACKLIGHT_FREQ=1000 /D "CFG_BACKLIGHT_DUTY_CYCLES=95, 92, 88, 82, 75, 65, 55, 40, 25, 5" /D CFG_BACKLIGHT_DEFAULT_DUTY_CYCLE=5 /D CFG_BACKLIGHT_BOOTLODER_DELAY=83 /D CFG_CMDQ_ENABLE /D CFG_CMDQ_SIZE=0x40000 /D "CFG_FONT_FILENAME=\"wqyMicroHeiProportional.ttf\"" /D CFG_AUDIO_ENABLE /D AUDIO_PLUGIN_MESSAGE_QUEUE /D ENABLE_CODECS_PLUGIN /D CONFIG_ITADRIVER /D CFG_AUDIO_SAMPLING_RATE=8000 /D CFG_AEC_DELAY_MS=60 /D CFG_SPEAKER_GAIN=0 /D CFG_MIC_GAIN=0 /D CFG_NOISE_GATE_THRESHOLD=0.3 /D CFG_EQUALIZER_SPKGAIN_SET=NULL /D CFG_EQUALIZER_MICGAIN_SET=NULL /D CFG_BUILD_ITU /D CFG_SD0_ENABLE /D CFG_FS_FAT /D "CFG_PRIVATE_DRIVE=\"A\"" /D "CFG_PUBLIC_DRIVE=\"B\"" /D "CFG_TEMP_DRIVE=\"T\"" /D CFG_RTC_DEFAULT_TIMESTAMP=1325376000 /D CFG_I2C0_ENABLE /D CFG_HW_I2C_ENABLE /D CFG_SPI0_ENABLE /D CFG_SPI0_MOSI_GPIO= /D CFG_SPI0_MISO_GPIO= /D CFG_SPI0_CLOCK_GPIO= /D CFG_SPI0_CHIP_SEL_GPIO= /D CFG_I2S_ENABLE /D CFG_I2S_OUTPUT_PIN_ENABLE /D CFG_DAC_port_I2C0 /D CFG_SPI_ENABLE /D CFG_UART1_ENABLE /D CFG_UART1_BAUDRATE=115200 /D CFG_UART_INTR /D CFG_UART_BUF_SIZE=1024 /D CFG_TOUCH_ENABLE /D CFG_TOUCH_MODULE_COUNT=1 /D CFG_TOUCH_I2C0 /D CFG_TOUCH_CAPACITIVE /D CFG_TOUCH_X_MAX_VALUE=0xFF /D CFG_TOUCH_Y_MAX_VALUE=0xFF /D CFG_FFMPEG_H264_SW /D "CFG_GPIO_SD0_CARD_DETECT=-1" /D "CFG_GPIO_SD0_POWER_ENABLE=-1" /D "CFG_GPIO_SD0_WRITE_PROTECT=-1" /D CFG_GPIO_BACKLIGHT_PWM=4 /D CFG_GPIO_UART1_TX=25 /D CFG_GPIO_UART1_RX=14 /D CFG_GPIO_TOUCH_INT=44 /D CFG_GPIO_TOUCH_WAKE=45 /D "CFG_GPIO_TOUCH_RESET=-1" /D "CFG_GPIO_ETHERNET_LINK=-1" /D CFG_IIC0_GPIO_CONFIG_2=y /D "CFG_NET_ETHERNET_PHY_ADDR=-1" /D CFG_NET_ETHERNET_COUNT=1 /D CFG_DBG_PRINTBUF_SIZE=0 /D CFG_DBG_UART1 /D "CFG_UPGRADE_FILENAME=\"ITEPKG03.PKG\"" /D "CFG_UPGRADE_FILENAME_LIST=\"ITEPKG03.PKG\"" /D CFG_UPGRADE_ENC_KEY=0 /D CFG_BUILD_AUDIO_MGR /D CFG_NORMAL_BUFFER_MODE /D CFG_BUILD_DEBUG /D CFG_VERSION_MAJOR=2 /D CFG_VERSION_MINOR=2 /D CFG_VERSION_PATCH=8 /D CFG_VERSION_CUSTOM=0 /D CFG_VERSION_TWEAK= /D "CFG_VERSION_MAJOR_STR=\"2\"" /D "CFG_VERSION_MINOR_STR=\"2\"" /D "CFG_VERSION_PATCH_STR=\"8\"" /D "CFG_VERSION_CUSTOM_STR=\"0\"" /D "CFG_VERSION_TWEAK_STR=\"\"" /D "CFG_SYSTEM_NAME=\"ITE Display Control Board\"" /D "CFG_MANUFACTURER=\"www.ite.com.tw\"" /D "CFG_PROJECT_NAME=\"AF\"" /D _ALLOW_KEYWORD_MACROS /D _CRT_SECURE_NO_WARNINGS /D _POSIX_PRIORITY_SCHEDULING=1 /D _SCL_SECURE_NO_WARNINGS /D _USE_MATH_DEFINES /D CURL_STATICLIB /D EGLAPI= /D EGLAPIENTRY= /D LIBXML_STATIC /D NOMINMAX /D OPENVG_STATIC_LIBRARY /D ORTP_STATIC /D OSIP_MT /D PTW32_STATIC_LIB /D UPNP_STATIC_LIB /D _CRTDBG_MAP_ALLOC /D ENABLE_TRACE /D CFG_WIN32_SIMULATOR /D CFG_WEBSERVER_PORT=80 /D "CFG_WEBSERVER_PORT_STR=\"80\"" /D "CFG_HW_VERSION=\"V2\"" /D "CFG_UPGRADE_FTP_URL=\"ftp://192.168.1.1/ctrlboard/ITEPKG03.PKG\"" /D "CMAKE_INTDIR=\"Debug\"" /D _USING_V110_SDK71_ /D _MBCS /Gm- /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"AF.dir\Debug\\" /Fd"AF.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt D:\ITE_Castor3_SDK\project\AF\audio.c D:\ITE_Castor3_SDK\project\AF\config.c D:\ITE_Castor3_SDK\project\AF\external.c D:\ITE_Castor3_SDK\project\AF\external_process.c D:\ITE_Castor3_SDK\project\AF\function_table.c D:\ITE_Castor3_SDK\project\AF\main.c D:\ITE_Castor3_SDK\project\AF\photo.c D:\ITE_Castor3_SDK\project\AF\reset.c D:\ITE_Castor3_SDK\project\AF\scene.c D:\ITE_Castor3_SDK\project\AF\screen.c D:\ITE_Castor3_SDK\project\AF\storage.c D:\ITE_Castor3_SDK\project\AF\string.c D:\ITE_Castor3_SDK\project\AF\upgrade.c D:\ITE_Castor3_SDK\project\AF\backup.c D:\ITE_Castor3_SDK\project\AF\layer_airconditioner.c D:\ITE_Castor3_SDK\project\AF\layer_audioplayer.c D:\ITE_Castor3_SDK\project\AF\layer_button.c D:\ITE_Castor3_SDK\project\AF\layer_calendar.c D:\ITE_Castor3_SDK\project\AF\layer_check_anim.c D:\ITE_Castor3_SDK\project\AF\layer_check_list.c D:\ITE_Castor3_SDK\project\AF\layer_circlectrl.c D:\ITE_Castor3_SDK\project\AF\layer_clock.c D:\ITE_Castor3_SDK\project\AF\layer_imageplayer.c D:\ITE_Castor3_SDK\project\AF\layer_imageview.c D:\ITE_Castor3_SDK\project\AF\layer_keyboard2.c D:\ITE_Castor3_SDK\project\AF\layer_list.c D:\ITE_Castor3_SDK\project\AF\layer_logo.c D:\ITE_Castor3_SDK\project\AF\layer_main.c D:\ITE_Castor3_SDK\project\AF\layer_main_menu.c D:\ITE_Castor3_SDK\project\AF\layer_meter.c D:\ITE_Castor3_SDK\project\AF\layer_screensaver.c D:\ITE_Castor3_SDK\project\AF\layer_setting_display.c D:\ITE_Castor3_SDK\project\AF\layer_setting_lang.c D:\ITE_Castor3_SDK\project\AF\layer_setting_sound.c D:\ITE_Castor3_SDK\project\AF\layer_setting_sysinfo.c D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_main.c D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_network.c D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_password.c D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c D:\ITE_Castor3_SDK\project\AF\layer_touch_calibration.c D:\ITE_Castor3_SDK\project\AF\layer_usb_device_mode.c D:\ITE_Castor3_SDK\project\AF\layer_videoplayer.c D:\ITE_Castor3_SDK\project\AF\layer_videoview.c
-         audio.c
-         config.c
-         external.c
-         external_process.c
-     1>D:\ITE_Castor3_SDK\project\AF\external.c(54): warning C4101: “evOut”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\external.c(57): warning C4101: “paramBuf”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\external.c(58): warning C4101: “outDataBuf”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\external.c(55): warning C4101: “evIn”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\sdk\share\audio_mgr\audio_mgr.h(172): warning C4005: “MMP_WCHAR”: 宏重定义 (D:\ITE_Castor3_SDK\project\AF\audio.c)
-                 d:\ite_castor3_sdk\sdk\share\audio_mgr\sxa_dmx/sxa_dmx.h(45) : 参见“MMP_WCHAR”的前一个定义
-         function_table.c
-         main.c
-         photo.c
-     1>D:\ITE_Castor3_SDK\project\AF\photo.c(63): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
-                 C:/Program Files/Microsoft Visual Studio 12.0/VC/include/stdio.h(718) : 参见“fileno”的声明
-         reset.c
-         scene.c
-         screen.c
-         storage.c
-         string.c
-     1>D:\ITE_Castor3_SDK\project\AF\scene.c(81): warning C4101: “rot”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\scene.c(671): warning C4013: “ScreenSetDoubleClick”未定义；假设外部返回 int
-     1>D:\ITE_Castor3_SDK\project\AF\scene.c(809): warning C4013: “ScreenSaverCheckForDoubleClick”未定义；假设外部返回 int
-     1>D:\ITE_Castor3_SDK\project\AF\scene.c(812): warning C4013: “ScreenOffContinue”未定义；假设外部返回 int
-         upgrade.c
-         backup.c
-         layer_airconditioner.c
-         layer_audioplayer.c
-     1>D:\ITE_Castor3_SDK\project\AF\backup.c(60): warning C4101: “ret1”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\backup.c(59): warning C4101: “srcPath”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\backup.c(211): warning C4013: “usleep”未定义；假设外部返回 int
-     1>D:\ITE_Castor3_SDK\project\AF\backup.c(305): warning C4013: “ugRestoreDir”未定义；假设外部返回 int
-     1>d:\ite_castor3_sdk\project\af\backup.c(254): warning C4716: “_ReinitFatVolume”: 必须返回一个值
-         layer_button.c
-         layer_calendar.c
-     1>D:\ITE_Castor3_SDK\sdk\share\audio_mgr\audio_mgr.h(172): warning C4005: “MMP_WCHAR”: 宏重定义 (D:\ITE_Castor3_SDK\project\AF\layer_audioplayer.c)
-                 d:\ite_castor3_sdk\sdk\share\audio_mgr\sxa_dmx/sxa_dmx.h(45) : 参见“MMP_WCHAR”的前一个定义
-         layer_check_anim.c
-         layer_check_list.c
-         layer_circlectrl.c
-         layer_clock.c
-         layer_imageplayer.c
-         layer_imageview.c
-         layer_keyboard2.c
-         layer_list.c
-         layer_logo.c
-         layer_main.c
-         layer_main_menu.c
-         layer_meter.c
-         layer_screensaver.c
-         layer_setting_display.c
-         layer_setting_lang.c
-     1>D:\ITE_Castor3_SDK\project\AF\layer_screensaver.c(40): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _fileno. See online help for details.
-                 C:/Program Files/Microsoft Visual Studio 12.0/VC/include/stdio.h(718) : 参见“fileno”的声明
-         layer_setting_sound.c
-         layer_setting_sysinfo.c
-         layer_setting_wifi_main.c
-         layer_setting_wifi_network.c
-         layer_setting_wifi_password.c
-         layer_setting_wifi_ssid.c
-         layer_touch_calibration.c
-         layer_usb_device_mode.c
-     1>D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c(95): warning C4047: “=”:“char”与“void *”的间接级别不同
-     1>D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c(87): warning C4101: “entry”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c(138): warning C4101: “nRet”: 未引用的局部变量
-     1>D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c(318): warning C4013: “SettingWiFiPasswordSetData”未定义；假设外部返回 int
-     1>D:\ITE_Castor3_SDK\project\AF\layer_setting_wifi_ssid.c(327): warning C4101: “nRet”: 未引用的局部变量
-         layer_videoplayer.c
-         layer_videoview.c
-       Link:
+﻿生成启动时间为 2018/8/8 15:18:23。
+     1>项目“D:\ITE_Castor3_SDK\build\win32\AF\project\AF\AF.vcxproj”在节点 3 上(Build 个目标)。
+     1>Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\project\AF\Debug\AF.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/ITE_Castor3_SDK/build/win32/lib /LIBPATH:D:/ITE_Castor3_SDK/build/win32/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\sdl_main.lib ..\..\lib\Debug\sdl.lib ..\..\lib\Debug\iniparser.lib ..\..\lib\Debug\itu.lib itu_private.lib ..\..\lib\Debug\itu.lib ..\..\lib\Debug\pyinput.lib ..\..\lib\Debug\freetype.lib ..\..\lib\Debug\png.lib ..\..\lib\Debug\jpeg.lib ..\..\lib\Debug\upgrade.lib ..\..\lib\Debug\itc.lib ..\..\lib\Debug\redblack.lib ..\..\lib\Debug\zlib.lib ..\..\lib\Debug\tslib.lib ..\..\lib\Debug\audio_mgr.lib ..\..\lib\Debug\audio.lib ..\..\lib\Debug\i2s.lib ..\..\lib\Debug\itp.lib ..\..\lib\Debug\iic.lib ..\..\lib\Debug\spi.lib ..\..\lib\Debug\ucl.lib ..\..\lib\Debug\bt.lib fat.lib ..\..\lib\Debug\fat_sd.lib ..\..\lib\Debug\sd.lib ..\..\lib\Debug\risc.lib ..\..\lib\Debug\boot.lib ..\..\lib\Debug\itp_boot.lib ..\..\lib\Debug\ith_platform.lib ..\..\lib\Debug\ith.lib ..\..\lib\Debug\ptw32.lib ..\..\..\..\..\win32\lib\FTCSPI.lib ..\..\..\..\..\win32\lib\Packet.lib imm32.lib Vfw32.lib version.lib winmm.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug AF.dir\Debug\audio.obj
          AF.dir\Debug\config.obj
          AF.dir\Debug\external.obj
@@ -129,4 +55,4 @@
 
 生成成功。
 
-已用时间 00:00:05.60
+已用时间 00:00:03.70
