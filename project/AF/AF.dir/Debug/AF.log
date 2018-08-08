@@ -1,4 +1,4 @@
-﻿生成启动时间为 2018/8/8 16:03:04。
+﻿生成启动时间为 2018/8/8 16:07:26。
      1>项目“D:\ITE_Castor3_SDK\build\win32\AF\project\AF\AF.vcxproj”在节点 3 上(Build 个目标)。
      1>Link:
          C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ITE_Castor3_SDK\build\win32\AF\project\AF\Debug\AF.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:/ITE_Castor3_SDK/build/win32/lib /LIBPATH:D:/ITE_Castor3_SDK/build/win32/lib/Debug kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\lib\Debug\sdl_main.lib ..\..\lib\Debug\sdl.lib ..\..\lib\Debug\iniparser.lib ..\..\lib\Debug\itu.lib itu_private.lib ..\..\lib\Debug\itu.lib ..\..\lib\Debug\pyinput.lib ..\..\lib\Debug\freetype.lib ..\..\lib\Debug\png.lib ..\..\lib\Debug\jpeg.lib ..\..\lib\Debug\upgrade.lib ..\..\lib\Debug\itc.lib ..\..\lib\Debug\redblack.lib ..\..\lib\Debug\zlib.lib ..\..\lib\Debug\tslib.lib ..\..\lib\Debug\audio_mgr.lib ..\..\lib\Debug\audio.lib ..\..\lib\Debug\i2s.lib ..\..\lib\Debug\itp.lib ..\..\lib\Debug\iic.lib ..\..\lib\Debug\spi.lib ..\..\lib\Debug\ucl.lib ..\..\lib\Debug\bt.lib fat.lib ..\..\lib\Debug\fat_sd.lib ..\..\lib\Debug\sd.lib ..\..\lib\Debug\risc.lib ..\..\lib\Debug\boot.lib ..\..\lib\Debug\itp_boot.lib ..\..\lib\Debug\ith_platform.lib ..\..\lib\Debug\ith.lib ..\..\lib\Debug\ptw32.lib ..\..\..\..\..\win32\lib\FTCSPI.lib ..\..\..\..\..\win32\lib\Packet.lib imm32.lib Vfw32.lib version.lib winmm.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.pdb" /SUBSYSTEM:CONSOLE,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/ITE_Castor3_SDK/build/win32/AF/project/AF/Debug/AF.lib" /MACHINE:X86 /SAFESEH  /machine:X86 /debug AF.dir\Debug\audio.obj
@@ -55,4 +55,4 @@
 
 生成成功。
 
-已用时间 00:00:04.15
+已用时间 00:00:04.14
